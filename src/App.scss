@@ -1,0 +1,143 @@
+$dark: 45;
+$darkish: $dark+10;
+$light: 255;
+$textDark: 125;
+$lightish: rgba(255, 255, 255, .4);
+$lightBackground: rgba($light, $light, $light, .2);
+
+/* change the primary theme color to red */
+$font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$theme-colors: (
+
+  yellow: rgb(255,237,78),
+  red:rgb(238,122,105),
+  blue:rgb(86,185,247),
+  purple:rgb(151,97,246),
+  fadedPurple:rgba(151,97,246, .6),
+  green:rgb(94,203,147),
+
+  dark:rgb($dark,$dark,$dark),
+  light:rgb($light, $light, $light),
+  lightish:$lightish,
+  lightisher:rgba($light, $light, $light, .8),
+  lightBackground:$lightBackground,
+  darkish:rgb($darkish,$darkish,$darkish),
+  textDark:rgb($textDark,$textDark,$textDark),
+
+);
+
+::selection {
+  background: $lightBackground; 
+}
+::-moz-selection {
+  background: $lightBackground;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+textarea::-webkit-input-placeholder {
+  color: $lightish;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: $lightish;  
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: $lightish;  
+}
+
+textarea:-ms-input-placeholder {
+  color: $lightish;  
+}
+
+textarea::placeholder {
+  color: rgba($light, $light, $light, .3);  
+}
+
+
+#textArea {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+	width:100%;
+	height:100vh;
+	resize:none;
+	outline:none;
+	border:none;
+	padding-top:25vh;
+	padding-left:28%;
+	padding-right:28%;
+	padding-bottom: 25vh;
+  position: fixed;
+  top: 0vh;
+  left: 0vh;
+  background-color:transparent;
+
+}
+
+.dynamicBackground{
+  transition: all 1.5s ease;
+  background-color: rgb(159, 105, 253); 
+}
+
+
+#textAreaHidden {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+  width:100%;
+  height:100vh;
+  resize:none;
+  outline:none;
+  border:none;
+  padding-top:25vh;
+  padding-left:28vh;
+  padding-right:28vh;
+  padding-bottom: 25vh;
+  font-size: 32px;
+  position: fixed;
+  top: 0vh;
+  left: 0vh;
+}
+
+#button {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#toggle {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#title {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#alert{
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$dropdown-bg:                       $lightBackground;
+$dropdown-border-color: $lightBackground;
+$dropdown-link-hover-bg:            $lightish;
+$dropdown-link-active-bg:            $lightish;
+
+/*$dropdown-link-color:               rgb(220, 220, 220);
+$dropdown-link-hover-color:         rgb($light, $light, $light);
+
+$dropdown-header-color:             rgb(150, 150, 150);
+
+$tooltip-bg:                        rgb($darkish+20,$darkish+20,$darkish+20);
+$tooltip-arrow-color:               rgb($darkish+20,$darkish+20,$darkish+20);
+$tooltip-margin:                    5px;*/
+/*$tooltip-color:                     rgb($light, $light, $light);*/
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
