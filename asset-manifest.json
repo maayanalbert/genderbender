@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/genderbender/static/css/main.c7cae342.chunk.css",
+    "main.js": "/genderbender/static/js/main.acc42fa9.chunk.js",
+    "main.js.map": "/genderbender/static/js/main.acc42fa9.chunk.js.map",
+    "runtime-main.js": "/genderbender/static/js/runtime-main.b5be5fef.js",
+    "runtime-main.js.map": "/genderbender/static/js/runtime-main.b5be5fef.js.map",
+    "static/js/2.c45344bc.chunk.js": "/genderbender/static/js/2.c45344bc.chunk.js",
+    "static/js/2.c45344bc.chunk.js.map": "/genderbender/static/js/2.c45344bc.chunk.js.map",
+    "index.html": "/genderbender/index.html",
+    "precache-manifest.c41ed8b9cd791112fd200b6699ba67e3.js": "/genderbender/precache-manifest.c41ed8b9cd791112fd200b6699ba67e3.js",
+    "service-worker.js": "/genderbender/service-worker.js",
+    "static/css/main.c7cae342.chunk.css.map": "/genderbender/static/css/main.c7cae342.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5be5fef.js",
+    "static/js/2.c45344bc.chunk.js",
+    "static/css/main.c7cae342.chunk.css",
+    "static/js/main.acc42fa9.chunk.js"
+  ]
+}
