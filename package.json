@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/genderbender",
+  "homepage": "https://maayanalbert.github.io/genderbender/",
   "name": "genderbender",
   "version": "0.1.0",
   "private": true,
@@ -29,8 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-       "predeploy": "yarn run build",
-   "deploy": "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
