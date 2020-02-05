@@ -7,12 +7,12 @@ export function markText(elem, replaceWords, elemColor, uniqueId){
         var style = document.createElement('style');
         style.innerHTML =
         'mark.newStyle'+uniqueId.toString()+' {' +
-            'color: '+elemColor+';' +
+            'color: '+elemColor+'!important;' +
         '}';
         var ref = document.querySelector('script');
 
         $('mark').css('background-color','transparent');
-
+       $('mark').css('color','transparent');
         // Insert our new styles before the first script tag
         ref.parentNode.insertBefore(style, ref);
 

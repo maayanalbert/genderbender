@@ -2,6 +2,8 @@ mark {
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;
   background-color: transparent;
+  color:transparent;
+
 
 }
 
