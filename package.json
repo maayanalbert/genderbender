@@ -1,0 +1,53 @@
+{
+  "homepage": "https://maayanalbert.github.io/genderbender/",
+  "name": "genderbender",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "compromise": "^11.14.3",
+    "create-react-class": "^15.6.3",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "react": "^16.11.0",
+    "react-autoselect": "^1.0.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-cristal": "0.0.12",
+    "react-dom": "^16.11.0",
+    "react-highlight-words": "^0.16.0",
+    "react-scripts": "3.2.0",
+    "react-scroll": "^1.7.14",
+    "react-scroll-into-view": "^1.5.3",
+    "react-scroll-to": "^3.0.0-beta.3",
+    "react-scroll-to-component": "^1.0.2",
+    "scroll-into-view": "^1.12.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "mark.js": "^8.11.1"
+  }
+}
